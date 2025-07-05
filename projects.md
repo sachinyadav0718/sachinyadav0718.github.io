@@ -4,14 +4,13 @@ title: Projects
 permalink: /projects.html
 ---
 
-# Selected Projects
+# Projects
 
 ### 🔗 Unified Health Interface (UHI)
-Led integration of hospital systems with India’s digital health grid using FHIR APIs.
+Integrated hospital systems with India’s digital health grid using FHIR.
 
-### ☁️ Azure Cost Optimization Dashboard
-Built internal dashboards for Azure billing analytics & recommendations using Python and Logic Apps.
+### ☁️ Azure Cost Optimization
+Built billing dashboards using Azure, Logic Apps, and PowerShell.
 
-### 🧠 AI-assisted Annotation Platform
-Part of a team that delivered a smart labeling platform for training ML models in health imaging.
-
+### 🧠 AI-assisted Labeling Tool
+Created smart ML annotation workflows for healthcare images.

@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1><a href="/">{{ site.title }}</a></h1>
-      <p>{{ site.description }}</p>
-      <nav>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="/" class="brand">
+        <span class="site-title">{{ site.title }}</span>
+        <span class="site-description">{{ site.description }}</span>
+      </a>
+      <nav class="site-nav">
         <a href="/">Home</a>
         <a href="/about.html">About</a>
         <a href="/projects.html">Projects</a>
+        <a href="/blog.html">Blog</a>
         <a href="/contact.html">Contact</a>
       </nav>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-    <footer>
-      <p>© {{ site.title }} — Built with ❤️ and Jekyll</p>
-    </footer>
-  </div>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ site.title }} — All rights reserved.</p>
+  </footer>
+
+  <script src="/assets/js/site.js"></script>
 </body>
 </html>

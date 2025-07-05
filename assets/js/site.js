@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const footer = document.querySelector('footer');
   const year = new Date().getFullYear();
   if (footer && !footer.textContent.includes(year)) {
-    footer.innerHTML += `<p style="font-size: 0.8em; margin-top: 0.5em;">Last updated: ${year}</p>`;
+    const updated = document.createElement('p');
+    updated.style.fontSize = '0.8em';
+    updated.style.marginTop = '0.5em';
+    updated.textContent = `Last updated: ${year}`;
+    footer.appendChild(updated);
   }
 });
