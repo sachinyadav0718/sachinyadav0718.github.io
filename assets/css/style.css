@@ -67,3 +67,28 @@ footer {
   text-decoration: none;
   border-radius: 4px;
 }
+
+/* Additional blog styles */
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list li {
+  margin-bottom: 1.5rem;
+}
+
+.blog-post .date {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Add subtle transition to nav links */
+nav a {
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #005f99;
+}

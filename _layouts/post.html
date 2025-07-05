@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">{{ site.title }}</a></h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/blog.html">Blog</a>
+      </nav>
+    </header>
+    <main class="blog-post">
+      <h1>{{ page.title }}</h1>
+      <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+      {{ content }}
+    </main>
+    <footer>
+      <p>© {{ site.title }} — Built with ❤️ and Jekyll</p>
+    </footer>
+  </div>
+</body>
+</html>
