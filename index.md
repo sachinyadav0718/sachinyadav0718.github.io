@@ -3,11 +3,9 @@ layout: default
 title: Home
 ---
 
-# 👋 Hello, I'm Sachin Yadav
-
-Welcome to my personal website!
-
-- 💼 Project Coordinator | Cloud Engineer
-- 📍 India
-- 💡 Passionate about systems engineering, health tech, and AI
-- 🌐 [LinkedIn](https://www.linkedin.com/in/sachinyadav0718)
+<section class="hero">
+  <h1>👋 Hi, I'm Sachin Yadav</h1>
+  <p>Cloud Engineer | Systems Specialist | Digital Health Enthusiast</p>
+  <p>I design and build software systems that empower people and improve public infrastructure — blending engineering, healthcare, and innovation.</p>
+  <a href="/about.html" class="btn">Learn More About Me</a>
+</section>
