@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Welcome
 ---
+
+# 👋 Welcome to My Site!
+
+This is a test page to confirm GitHub Pages is working.
